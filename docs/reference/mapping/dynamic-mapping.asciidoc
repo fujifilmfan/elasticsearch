@@ -13,7 +13,7 @@ PUT data/_doc/1 <1>
 { "count": 5 }
 --------------------------------------------------
 
-<1> Creates the `data` index, the `_doc` mapping type, and a field
+<1> Creates the `data` index, the `_doc` endpoint name, and a field
     called `count` with data type `long`.
 
 The automatic detection and addition of new fields is called
